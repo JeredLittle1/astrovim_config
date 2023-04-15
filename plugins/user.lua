@@ -20,5 +20,10 @@ return {
     keys = {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" }
     }
-  }
+  },
+  -- {
+  --   "kdheepak/lazygit.nvim",
+  --   opts = {},
+  --   event = "User AstroFile"
+  -- }
 }
