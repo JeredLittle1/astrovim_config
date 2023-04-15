@@ -21,9 +21,9 @@ return {
         "gopls",
         "html",
         "jsonls",
-        "jdtls",
         "kotlin_language_server",
-        "marksman"
+        "marksman",
+        "groovyls"
       },
     },
   },
@@ -32,7 +32,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      -- ensure_installed = { "prettier", "stylua" },
+      ensure_installed = { "pylint", "xo", "black" },
     },
   },
   {
