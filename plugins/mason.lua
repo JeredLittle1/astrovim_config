@@ -18,7 +18,7 @@ return {
         "tsserver",
         "yamlls",
         "dockerls",
-        "gopls",
+        -- "gopls",
         "html",
         "jsonls",
         "kotlin_language_server",
