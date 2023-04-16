@@ -36,7 +36,6 @@ return {
       ensure_installed = {
         "xo",
         "black",
-        "luaformatter"
       },
     },
   },
