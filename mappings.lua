@@ -23,11 +23,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["<leader>a"] = { "", desc = "Windows WSL Commands" },
+    ["<leader>W"] = { "<cmd>echo 'Select a Command'<cr>", desc = "Windows WSL Commands" },
     ["<leader>w"] = { ":set wrap linebreak nolist<cr>", desc = "Wrap Text" },
-    ["<leader>W"] = { ":set nowrap<cr>", desc = "No Wrap Text" },
-    ["<leader>aC"] = { ":'<,'>w !clip.exe", desc = "Copy Selection to Clipboard" },
-    ["<leader>aCf"] = { ":w !clip.exe", desc = "Copy File to Clipboard" },
+    ["<leader>wx"] = { ":set nowrap<cr>", desc = "No Wrap Text" },
+    ["<leader>Wc"] = { ":'<,'>w !clip.exe<cr>", desc = "Copy Selection to Clipboard" },
+    ["<leader>Wf"] = { ":w !clip.exe<cr>", desc = "Copy File to Clipboard" },
   },
   t = {
     -- setting a mapping to false will disable it
