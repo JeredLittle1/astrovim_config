@@ -21,6 +21,16 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" }
     }
   },
+  {
+    "pwntester/octo.nvim",
+    cmd = "Octo",
+    config = function(_, opts)
+      require("octo").setup(opts)
+    end,
+    keys = {
+      { "<leader>gP", "<cmd>Octo pr list<cr>", desc = "List PRs" },
+    }
+  }
   -- {
   --   "kdheepak/lazygit.nvim",
   --   opts = {},

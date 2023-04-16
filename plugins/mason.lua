@@ -11,6 +11,7 @@ return {
         "cssls",
         "pyright",
         "sqlls",
+        "jdtls",
         "gradle_ls",
         "taplo",
         "tailwindcss",
@@ -32,7 +33,7 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      ensure_installed = { "pylint", "xo", "black" },
+      ensure_installed = { "pylint", "xo", "black", "luaformatter" },
     },
   },
   {
