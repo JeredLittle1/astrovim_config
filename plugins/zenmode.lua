@@ -24,7 +24,6 @@ return {
       width = function() return math.min(80, vim.o.columns * 0.75) end,
       height = 0.9,
       options = {
-        number = false,
         relativenumber = false,
         foldcolumn = "0",
         list = false,
