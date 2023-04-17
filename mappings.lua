@@ -25,6 +25,7 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<leader>w"] = { ":set wrap linebreak nolist<cr>", desc = "Wrap Text" },
     ["<leader>wx"] = { ":set nowrap<cr>", desc = "No Wrap Text" },
+    ["<leader>n"] = { "<cmd>ZenMode<CR>", desc = "Centers and mutes code" },
   },
   t = {
     -- setting a mapping to false will disable it
