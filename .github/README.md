@@ -36,8 +36,8 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 * NodeJS
 ```
 brew update
-brew install nvim
-nvim install 16.0
+brew install nvm
+nvm install 16.0
 ```
 * Github CLI
 ```
