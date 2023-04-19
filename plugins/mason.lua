@@ -35,6 +35,8 @@ return {
     opts = {
       ensure_installed = {
         "black",
+        "prettier",
+        "prettierd"
       },
     },
   },
