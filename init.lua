@@ -16,6 +16,29 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
+  highlights = {
+    -- apply highlight group to all colorschemes (include the default_theme)
+    init = {
+      -- set the transparency for all of these highlight groups
+      Normal = { bg = "NONE", ctermbg = "NONE" },
+      NormalNC = { bg = "NONE", ctermbg = "NONE" },
+      CursorColumn = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
+      CursorLine = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
+      CursorLineNr = { cterm = {}, ctermbg = "NONE", ctermfg = "NONE" },
+      LineNr = {},
+      SignColumn = {},
+      StatusLine = {},
+      NeoTreeNormal = { bg = "NONE", ctermbg = "NONE" },
+      NeoTreeNormalNC = { bg = "NONE", ctermbg = "NONE" },
+    },
+  },
+  plugins = {
+    -- ...
+    ["notify"] = function(config)
+      config.background_colour = "#000000";
+      return config
+    end,
+  },
   -- Set colorscheme to use
   colorscheme = "nordfox",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
