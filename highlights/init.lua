@@ -9,5 +9,7 @@ return {
   SignColumn = {},
   StatusLine = {},
   NeoTreeNormal = { bg = "NONE", ctermbg = "NONE" },
-  NeoTreeNormalNC = { bg = "NONE", ctermbg = "NONE" }
+  NeoTreeNormalNC = { bg = "NONE", ctermbg = "NONE" },
+  WinBar = { bg = "NONE", ctermbg = "NONE" },
+  WinBarNC = { bg = "NONE", ctermbg = "NONE" }
 }
