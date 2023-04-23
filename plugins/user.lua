@@ -28,6 +28,7 @@ return {
       require("octo").setup(opts)
     end,
     keys = {
+      { "<leader>O",     "Octo (Github PRs)",                          desc = "Octo (Github PRs)" },
       { "<leader>Oi",    "",                                           desc = " Issues" },
       { "<leader>Oic",   "<cmd>Octo issue close<cr>",                  desc = "Close current issue" },
       { "<leader>Oir",   "<cmd>Octo issue reopen<cr>",                 desc = "Reopen current issue" },
