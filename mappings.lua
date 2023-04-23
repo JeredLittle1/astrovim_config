@@ -23,7 +23,6 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
-    ["<leader>n"] = { "<cmd>ZenMode<CR>", desc = "Centers and mutes code" },
     ["<leader>w"] = { "<cmd>echo 'Quicknote Commands'<cr>", desc = "QuickNote" },
     ["<leader>wn"] = { "<cmd>:lua require('quicknote').NewNoteAtCurrentLine()<cr>", desc = "New Note at Line" },
     ["<leader>wc"] = { "<cmd>:lua require('quicknote').NewNoteAtCWD()<cr>", desc = "New Note at Current Dir" },
