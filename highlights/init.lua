@@ -1,3 +1,6 @@
+require("notify").setup({
+  background_colour = "#000000",
+})
 return {
   -- this table overrides highlights in all themes
   Normal = { bg = "NONE", ctermbg = "NONE" },
