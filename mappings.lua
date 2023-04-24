@@ -23,11 +23,11 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
-    ["<leader>w"] = { "<cmd>echo 'Quicknote Commands'<cr>", desc = "QuickNote" },
+    ["<leader>w"] = { "<cmd>echo 'Quicknote/Wiki Commands'<cr>", desc = "QuickNote" },
     ["<leader>wn"] = { "<cmd>:lua require('quicknote').NewNoteAtCurrentLine()<cr>", desc = "New Note at Line" },
     ["<leader>wc"] = { "<cmd>:lua require('quicknote').NewNoteAtCWD()<cr>", desc = "New Note at Current Dir" },
     ["<leader>wg"] = { "<cmd>:lua require('quicknote').NewNoteAtGlobal()<cr>", desc = "New Note Globally" },
-    ["<leader>ws"] = { "<cmd>:lua require('quicknote').ShowNoteSigns()<cr>", desc = "Show Notes in Buffer" },
+    ["<leader>wS"] = { "<cmd>:lua require('quicknote').ShowNoteSigns()<cr>", desc = "Show Notes in Buffer" },
     ["<leader>wo"] = { "<cmd>:lua require('quicknote').OpenNoteAtCurrentLine()<cr>", desc = "Open Note at Current Line" },
     ["<leader>wC"] = { "<cmd>:lua require('quicknote').OpenNoteAtCWD()<cr>", desc = "Open Notes in CWD" },
     ["<leader>wG"] = { "<cmd>:lua require('quicknote').OpenNoteAtGlobal()<cr>", desc = "Open Global Notes" },
