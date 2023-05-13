@@ -17,7 +17,7 @@ return {
         "tailwindcss",
         "terraformls",
         "tsserver",
-        "yamlls",
+        -- "yamlls",
         "dockerls",
         -- "gopls",
         "html",
@@ -35,8 +35,8 @@ return {
     opts = {
       ensure_installed = {
         "black",
-        "prettier",
-        "prettierd"
+        --"prettier",
+        --"prettierd"
       },
     },
   },
