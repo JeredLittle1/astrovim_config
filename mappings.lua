@@ -21,6 +21,7 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>y"] = { "[[\"+y]]", desc = "Copy to System Clipboard" },
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
   },
@@ -32,5 +33,6 @@ return {
     ["<leader>W"] = { "<cmd>echo 'Select a Command'<cr>", desc = "Windows WSL Commands" },
     ["<leader>Wc"] = { ":'<,'>w !clip.exe<cr>", desc = "Copy Selection to Clipboard (WSL)" },
     ["<leader>Wf"] = { ":w !clip.exe<cr>", desc = "Copy File to Clipboard (WSL)" },
+    ["<leader>y"] = { "\"+y", desc = "Copy to System Clipboard" },
   }
 }
