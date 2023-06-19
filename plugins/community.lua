@@ -6,6 +6,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.everforest" },
-  { import = "astrocommunity.colorscheme.nightfox" }
+  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
+  -- { import = "astrocommunity.colorscheme.nightfox" }
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }

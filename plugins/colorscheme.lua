@@ -19,7 +19,7 @@ return {
 
       -- Override highlight groups (see ./lua/vscode/theme.lua)
     })
-    require('vscode').load()
+    -- require('vscode').load()
   end,
 
 }
